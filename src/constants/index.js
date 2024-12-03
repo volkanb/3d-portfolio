@@ -311,5 +311,7 @@ import {
       source_code_link: "https://github.com/volkanb/task-list",
     },
   ];
+
+  const githubLink = "https://github.com/volkanb/";
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, githubLink };
