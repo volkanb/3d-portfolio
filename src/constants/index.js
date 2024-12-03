@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    weather,
+    leni,
+    tasklist,
+    portfolio,
   } from "../assets";
   
   export const navLinks = [
@@ -214,16 +218,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "3D Portfolio Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A modern and interactive portfolio website built with React, Three.js, and TailwindCSS. This project showcases professional experience, technical skills, and projects in an engaging 3D environment.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
@@ -231,50 +235,75 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/volkanb/3d-portfolio",
     },
     {
-      name: "Job IT",
+      name: "Leni Rental Portal",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to search, view and apply to rental properties. It supports map view, extended gallery features, complex search preferences and modern UI elements.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "rsuite",
           color: "pink-text-gradient",
         },
+        {
+          name: "tailwind",
+          color: "orange-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: leni,
+      source_code_link: "https://app.realsage.com/properties?moveIn=12/03/2024&location=Toronto,%20Ontario,%20Canada",
     },
     {
-      name: "Trip Guide",
+      name: "Weather Dashboard",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This Weather Dashboard is a React application that allows users to search for the weather forecast of a city and displays both the current weather and a 5-day forecast. The app uses the OpenWeather API to fetch weather data and supports temperature-based dynamic styling for a visually engaging experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "materialui",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: weather,
+      source_code_link: "https://github.com/volkanb/weather-dashboard",
+    },
+    {
+      name: "Task List",
+      description:
+        "A simple and intuitive task management application built with React, TypeScript, and Material-UI. This app allows users to create, manage, and organize their tasks efficiently.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "materialui",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tasklist,
+      source_code_link: "https://github.com/volkanb/task-list",
     },
   ];
   
