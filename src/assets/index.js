@@ -26,6 +26,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import rentsync from "./company/rentsync.png";
+import leniicon from "./company/leniicon.png";
+import lighthouselabsicon from "./company/lighthouselabsicon.png";
+import prodigy from "./company/prodigy.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -62,6 +66,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  rentsync,
+  leniicon,
+  lighthouselabsicon,
+  prodigy,
   carrent,
   jobit,
   tripguide,

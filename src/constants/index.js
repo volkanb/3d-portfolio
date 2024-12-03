@@ -27,6 +27,11 @@ import {
     leni,
     tasklist,
     portfolio,
+    rentsync,
+    weblink,
+    leniicon,
+    lighthouselabsicon,
+    prodigy,
   } from "../assets";
   
   export const navLinks = [
@@ -122,8 +127,8 @@ import {
     {
       title: "Freelance Full Stack Web Developer",
       company_name: "Self Employed",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: weblink,
+      iconBg: "#000000",
       date: "Jul 2024 - Present",
       points: [
         "Built dynamic, responsive web applications from concept to deployment.",
@@ -135,7 +140,7 @@ import {
     {
       title: "Intermediate Full Stack Web Developer",
       company_name: "Rentsync",
-      icon: tesla,
+      icon: rentsync,
       iconBg: "#E6DEDD",
       date: "Mar 2023 - Jul 2024",
       points: [
@@ -149,7 +154,7 @@ import {
     {
       title: "Jr. Full Stack Web Developer",
       company_name: "Leni",
-      icon: shopify,
+      icon: leniicon,
       iconBg: "#383E56",
       date: "Jan 2022 - Dec 2022",
       points: [
@@ -163,7 +168,7 @@ import {
     {
       title: "Jr. Full Stack Web Developer",
       company_name: "Lighthouse Labs",
-      icon: meta,
+      icon: lighthouselabsicon,
       iconBg: "#E6DEDD",
       date: "Apr 2021 - Oct 2021",
       points: [
@@ -176,7 +181,7 @@ import {
     {
       title: "Game Developer",
       company_name: "Prodigy Game",
-      icon: meta,
+      icon: prodigy,
       iconBg: "#E6DEDD",
       date: "Feb 2019 - Oct 2020",
       points: [
